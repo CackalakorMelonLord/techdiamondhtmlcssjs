@@ -1,0 +1,105 @@
+body {
+    text-align:center;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    font-family:'Kaushan Script', cursive;
+}
+#header {
+    margin:200px;
+    background-image:url("Untitled%20design%20(3).png");
+    color:white;
+    height:800px;
+}
+a {
+    text-decoration:none;
+    color:black;
+}
+.line {
+  height: 6px;
+    background-color: dodgerblue;
+    width: 100px;
+    margin: 8px auto;
+}
+.menu {
+    position: fixed;
+    background-color:EF3E36;
+    width:100%;
+    margin-top:0px;
+    top:0px;
+    z-index:10;
+}
+
+.links {
+    display:inline;
+    padding:left:33px;
+    padding-right:25px;
+    font-family:'Kaushan Script', fantasy;
+    font-size:40px;
+}
+.links:hover {
+    background-color:dodgerblue;
+    font-size:50px;
+}
+#optionr {
+    font-size:15px;
+    margin:10px;
+}
+html {
+    scroll-behavior: smooth;
+}
+.img {
+    border-style:solid;
+    border-color:dodgerblue;
+    transition: transform .2s;
+    margin:50px;
+}
+.img:hover {
+    transform: scale(0.9);
+}
+.h1 {
+    font-size:50px;
+}
+p {
+    font-size:30px;
+}
+section {
+    margin:100px;
+}
+#h1head {
+    font-size:38px;
+}
+.form-control {
+    font-family:'Kaushan Script';
+    background-color:crimson;
+    color:white;
+     border-style:inherit;
+    border-color:white;
+}
+#submit {
+    border-radius:1px;
+    font-family:'Kaushan Script';
+    background-color:firebrick;
+    font-size:35px;
+}
+::placeholder {
+    color:white;
+}
+#label {
+    position:relative;
+    top:-20px;
+}
+textarea {
+    border-radius:1px;
+    font-size:30px;
+    margin:20px;
+}
+.label {
+    font-size:40px;
+}
+input {
+     font-size:30px;
+    margin:20px;
+}
+button {
+    border-style:inherit;
+    border-color:white;
+}
